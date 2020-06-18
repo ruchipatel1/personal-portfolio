@@ -48,14 +48,16 @@
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  /* Style the body for about me page */
-  .aboutMe p {
+  .aboutMeDescription {
+    text-align: center;
+  }
+  /* Style the body paragraphs for about me page */
+  .aboutMeDescription p {
     font-family: 'Open Sans', sans-serif;
     z-index: -1;
-    text-align: center;
     letter-spacing: 0.08rem;
-    justify-content: space-around;
     font-weight: 200;
+
   }
   /* for computer screens */
 @media screen and (min-width: 800px) {
@@ -130,5 +132,9 @@ for mobile screens
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, 6px);
+}
+.resumeViewer {
+  align-content: center;
+  display: block;
 }
 
