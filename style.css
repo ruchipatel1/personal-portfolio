@@ -48,8 +48,16 @@
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .aboutMeDescription {
+  .wrapAboutMe {
     text-align: center;
+
+  }
+  .outer {
+    display: flex;
+    justify-content: center;
+  }
+  .inner {
+    width: 50%;
   }
   /* Style the body paragraphs for about me page */
   .aboutMeDescription p {
@@ -136,5 +144,9 @@ for mobile screens
 .resumeViewer {
   align-content: center;
   display: block;
+}
+.resume {
+  width: 100%;
+  height: auto;
 }
 
