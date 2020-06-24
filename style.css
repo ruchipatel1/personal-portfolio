@@ -10,6 +10,10 @@
     font-size: 30px;
     letter-spacing: 0.2rem;
   }
+  .logo a {
+    text-decoration: none;
+    color: black;
+  }
 
   nav {
     display: flex;
@@ -156,7 +160,7 @@ for mobile screens
 .resume img {
   width: 100%;
   height: auto;
-  max-width: 70vw;
+  max-width: 65vw;
   display: block;
   margin: 0 auto;
 }
