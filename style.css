@@ -4,7 +4,6 @@
   padding: 0;
 
   }
-  
 
   .logo {
     font-family: 'Roboto Mono', monospace;
@@ -48,10 +47,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .wrapAboutMe {
-    text-align: center;
 
-  }
   .outer {
     display: flex;
     justify-content: center;
@@ -60,12 +56,24 @@
     width: 50%;
   }
   /* Style the body paragraphs for about me page */
-  .aboutMeDescription p {
+  .inner p {
     font-family: 'Open Sans', sans-serif;
     z-index: -1;
     letter-spacing: 0.08rem;
     font-weight: 200;
 
+  }
+  html {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  footer {
+    margin-top: auto;
+    background: #504c4c;
   }
   /* for computer screens */
 @media screen and (min-width: 800px) {
@@ -145,8 +153,11 @@ for mobile screens
   align-content: center;
   display: block;
 }
-.resume {
+.resume img {
   width: 100%;
   height: auto;
+  max-width: 70vw;
+  display: block;
+  margin: 0 auto;
 }
 
